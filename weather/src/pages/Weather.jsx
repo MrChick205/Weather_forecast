@@ -151,10 +151,9 @@ export default function WeatherDashboard() {
       <div className="max-w-[1300px] mx-auto p-4 md:p-8">
 
         {/* HEADER */}
-        <header className="flex justify-between items-center mb-6 md:mb-10">
-          <div className="flex items-center gap-3">
-            <img src="/src/assets/images/logo.svg" alt="Weather Now" className="w-8 h-8" />
-            <span className="text-white font-semibold text-lg md:text-xl">Weather Now</span>
+        <header className="flex justify-between items-center mb-6 md:mb-10"> 
+          <div className="flex items-center gap-2 font-bold text-lg md:text-xl text-[#5E7CE2]"> 
+          <img src="/src/assets/images/logo.svg" alt="Units Icon" className="w-45 h-45" /> 
           </div>
 
           {/* UNITS DROPDOWN */}
